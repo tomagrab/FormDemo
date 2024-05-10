@@ -1026,3 +1026,4 @@ D:\Projects\web\FormDemo\FormDemo.Client\obj\Debug\net8.0\FormDemo.Client.dll
 D:\Projects\web\FormDemo\FormDemo.Client\obj\Debug\net8.0\refint\FormDemo.Client.dll
 D:\Projects\web\FormDemo\FormDemo.Client\obj\Debug\net8.0\FormDemo.Client.pdb
 D:\Projects\web\FormDemo\FormDemo.Client\obj\Debug\net8.0\ref\FormDemo.Client.dll
+D:\Projects\web\FormDemo\FormDemo.Client\obj\Debug\net8.0\FormDemo.Client.sourcelink.json
