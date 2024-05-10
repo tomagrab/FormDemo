@@ -106,32 +106,12 @@ body {
   @apply text-2xl font-semibold leading-none tracking-tight;
 }
 
-@keyframes slideInUp {
-  from {
-    transform: translateY(100%);
-  }
-  to {
-    transform: translateY(0);
-  }
+.checkbox {
+  @apply peer h-4 w-4 shrink-0 rounded-sm border border-primary ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground;
 }
 
-@keyframes slideOutUp {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(-100%);
-  }
-}
-
-.modal-enter-active {
-  @apply duration-300 ease-out;
-  animation-name: slideInUp;
-}
-
-.modal-exit-active {
-  @apply duration-300 ease-in;
-  animation-name: slideOutUp;
+.error-text {
+  @apply text-destructive;
 }
 
 .modal {
@@ -156,6 +136,10 @@ body {
 
 .input {
   @apply flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50;
+}
+
+.invalid {
+  @apply border-destructive focus:ring-destructive;
 }
 
 .select-trigger {
@@ -188,4 +172,8 @@ body {
 
 .select-separator {
   @apply -mx-1 my-1 h-px bg-muted;
+}
+
+.textarea {
+  @apply flex min-h-[80px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50;
 }
