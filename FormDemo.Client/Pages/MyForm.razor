@@ -19,9 +19,9 @@
         <ValidationMessage For="@(() => Person.LifeStory)" class="error-text"/>
         <p class="@GetCharacterCountClass()">@GetCharacterCountText()</p>
     </div>
-    <div class="flex flex-col gap-2">
+    <div class="flex justify-between">
         <label for="IsEnrolled">Enrolled</label>
-        <InputCheckbox id="IsEnrolled" @bind-Value="Person.IsEnrolled" class="input" />
+        <InputCheckbox id="IsEnrolled" @bind-Value="Person.IsEnrolled" class="checkbox"/>
     </div>
     <div class="flex flex-col">
         <button class="btn btn-base btn-primary" type="submit">
