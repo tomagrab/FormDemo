@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "FormDemo.Client",
   "resources": {
-    "hash": "sha256-x8fpK0eZYGihhhxwTI2h+7BgcfL6yQ4dVquEsl55jdU=",
+    "hash": "sha256-N4u7MeaQ4uBYX+icCSSWaGgF70fcycDpN9VOd8xo3LY=",
     "jsModuleNative": {
       "dotnet.native.8.0.4.o6vhffgxk4.js": "sha256-ju0+XWE0ihz554eKEj0HQ8Opa61xpbUIaX5/MNo8we4="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-VCfYgt1mcjITabSTosCDVZ+68ea3Z7kakTFaLNLG+18=",
       "netstandard.wasm": "sha256-YOZxxR9PM3Dltcijfb0Q4FD39DkWZbZ1e2ScbZDvWJ4=",
       "System.Private.CoreLib.wasm": "sha256-NrT1QkAzVU//2wgK9vXdq77lCGvLJ4IOZ+Aegesyanc=",
-      "FormDemo.Client.wasm": "sha256-73pZHt1rj+DefmMDp63owq8pDWQJd0HW51kDaT9J0Qg="
+      "FormDemo.Client.wasm": "sha256-ov2urNGitHg3kgTdaiAHCttWWoE2qjrRgxqRfYmR50E="
     },
     "pdb": {
-      "FormDemo.Client.pdb": "sha256-jy+nd/F6OS7SAx2F2DlCpER3X2zMZPq7o4oqqm/lLzc="
+      "FormDemo.Client.pdb": "sha256-dwE+FNmxTIsNJXBbRV3gBsA94kusCuJnAs+MB2zyltg="
     }
   },
   "cacheBootResources": true,

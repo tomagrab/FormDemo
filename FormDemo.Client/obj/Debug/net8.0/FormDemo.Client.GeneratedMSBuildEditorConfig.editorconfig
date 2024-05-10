@@ -22,6 +22,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Projects\web\FormDemo\FormDemo.Client
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Projects/web/FormDemo/FormDemo.Client/Pages/Modal.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kYWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Projects/web/FormDemo/FormDemo.Client/Pages/MyForm.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlGb3JtLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
