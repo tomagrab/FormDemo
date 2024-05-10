@@ -2,11 +2,23 @@
 
 <PageTitle>Home</PageTitle>
 
+<div class="flex flex-col gap-4">
+    <h1 class="text-xl font-bold drop-shadow-xl">Form Demo App</h1>
 
-<h1 class="text-lg font-bold drop-shadow-xl">Form Demo App</h1>
+    <div class="text-lg flex flex-col gap-2">
+        <div>
+            <p>
+                This is a simple form demo app that demonstrates how to use forms in Blazor.
+            </p>
+        </div>
 
-<div class="text-lg">
-    <p>
-        This is a simple form demo app that demonstrates how to use forms in Blazor.
-    </p>
+        <div>
+            <h2 class="font-bold">Demo Showcase</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div class="flex flex-col items-center">
+                <MyForm />
+            </div>
+        </div>
+    </div>
 </div>
