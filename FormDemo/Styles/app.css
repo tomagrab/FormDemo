@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap");
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 5.9% 10%;
+    --radius: 0.5rem;
+  }
+}
+
+body {
+  @apply bg-velsollightgrey;
+  font-family: "Inter", sans-serif;
+}
+
+.active {
+  @apply bg-velsolblue/90;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50;
+}
+
+.btn-primary {
+  @apply bg-velsolblue text-primary-foreground hover:bg-velsolblue/90;
+}
+
+.btn-secondary {
+  @apply bg-velsolgreen text-secondary-foreground hover:bg-velsolgreen/80;
+}
+
+.btn-destructive {
+  @apply bg-velsolred text-destructive-foreground hover:bg-velsolred/90;
+}
+
+.btn-outline {
+  @apply border border-input bg-background hover:bg-accent hover:text-accent-foreground;
+}
+
+.btn-ghost {
+  @apply hover:bg-accent hover:text-accent-foreground;
+}
+
+.btn-link {
+  @apply text-velsollink underline-offset-4 hover:underline;
+}
+
+.btn-sm {
+  @apply h-9 rounded-md px-3;
+}
+
+.btn-base {
+  @apply h-10 px-4 py-2;
+}
+
+.btn-lg {
+  @apply h-11 rounded-md px-8;
+}
+
+.btn-icon {
+  @apply h-10 w-10;
+}
+
+.card {
+  @apply rounded-lg border bg-card text-card-foreground shadow-sm;
+}
+
+.card-content {
+  @apply p-6 pt-0;
+}
+
+.card-description {
+  @apply text-sm text-muted-foreground;
+}
+
+.card-footer {
+  @apply flex items-center p-6 pt-0;
+}
+
+.card-header {
+  @apply flex flex-col space-y-1.5 p-6;
+}
+
+.card-title {
+  @apply text-2xl font-semibold leading-none tracking-tight;
+}
+
+.input {
+  @apply flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50;
+}
+
+.select-trigger {
+  @apply flex h-10 w-full items-center justify-between rounded-md border px-3 py-2 text-sm focus:outline-none focus:ring-2 disabled:cursor-not-allowed disabled:opacity-50 ring-offset-2;
+}
+
+.select-icon {
+  @apply h-4 w-4 opacity-50;
+}
+
+.select-scroll-button {
+  @apply flex cursor-default items-center justify-center py-1;
+}
+
+.select-content {
+  @apply relative z-50 max-h-96 min-w-[8rem] overflow-hidden rounded-md border shadow-md;
+}
+
+.select-label {
+  @apply py-1.5 pl-8 pr-2 text-sm font-semibold;
+}
+
+.select-item {
+  @apply relative flex w-full cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none focus:bg-accent focus:text-accent-foreground;
+}
+
+.select-item-indicator {
+  @apply absolute left-2 flex h-3.5 w-3.5 items-center justify-center;
+}
+
+.select-separator {
+  @apply -mx-1 my-1 h-px bg-muted;
+}

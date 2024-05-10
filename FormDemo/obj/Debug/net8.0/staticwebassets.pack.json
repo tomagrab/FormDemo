@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\web\\FormDemo\\FormDemo\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FormDemo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FormDemo.props",
+      "PackagePath": "build\\FormDemo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FormDemo.props",
+      "PackagePath": "buildMultiTargeting\\FormDemo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FormDemo.props",
+      "PackagePath": "buildTransitive\\FormDemo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
