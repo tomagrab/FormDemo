@@ -15,4 +15,6 @@ public class PersonModel
     [MaxLength(500, ErrorMessage = "Life story must be at most 500 characters.")]
     public string? LifeStory { get; set; }
     public bool IsEnrolled { get; set; }
+    [Required(ErrorMessage = "Start Date is required")]
+    public DateOnly StartDate { get; set; }
 }
