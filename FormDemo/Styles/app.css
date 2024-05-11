@@ -6,7 +6,6 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
     --card: 0 0% 100%;
     --card-foreground: 240 10% 3.9%;
@@ -30,28 +29,36 @@
 }
 
 body {
-  @apply bg-velsollightgrey;
+  @apply bg-darkgray;
   font-family: "Inter", sans-serif;
 }
 
 .active {
-  @apply bg-velsolblue/90;
+  @apply bg-blue/90;
+}
+
+.align-right {
+  @apply flex justify-end;
 }
 
 .btn {
   @apply inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50;
 }
 
+.btn-home {
+  @apply font-bold text-white drop-shadow-lg inline-flex items-center justify-center whitespace-nowrap rounded-md ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-5 bg-blue text-primary-foreground hover:bg-blue/90;
+}
+
 .btn-primary {
-  @apply bg-velsolblue text-primary-foreground hover:bg-velsolblue/90;
+  @apply bg-blue text-primary-foreground hover:bg-blue/90;
 }
 
 .btn-secondary {
-  @apply bg-velsolgreen text-secondary-foreground hover:bg-velsolgreen/80;
+  @apply bg-green text-secondary-foreground hover:bg-green/80;
 }
 
 .btn-destructive {
-  @apply bg-velsolred text-destructive-foreground hover:bg-velsolred/90;
+  @apply bg-red text-destructive-foreground hover:bg-red/90;
 }
 
 .btn-outline {
@@ -63,7 +70,7 @@ body {
 }
 
 .btn-link {
-  @apply text-velsollink underline-offset-4 hover:underline;
+  @apply text-brightGreen underline-offset-4 hover:underline;
 }
 
 .btn-sm {
@@ -99,7 +106,7 @@ body {
 }
 
 .card-header {
-  @apply flex flex-col space-y-1.5 p-6;
+  @apply flex flex-col p-6;
 }
 
 .card-title {
@@ -112,6 +119,18 @@ body {
 
 .error-text {
   @apply text-destructive;
+}
+
+.form {
+  @apply flex flex-col gap-2 shadow max-w-sm p-4 rounded-md;
+}
+
+.form-control-col {
+  @apply flex flex-col gap-2;
+}
+
+.form-control-row {
+  @apply flex items-center justify-between;
 }
 
 .modal {
@@ -135,7 +154,7 @@ body {
 }
 
 .input {
-  @apply flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50;
+  @apply flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50;
 }
 
 .invalid {

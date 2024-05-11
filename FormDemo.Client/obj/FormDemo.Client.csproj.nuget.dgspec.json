@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\web\\FormDemo\\FormDemo.Client\\FormDemo.Client.csproj": {}
+    "C:\\Users\\Tommy\\OneDrive\\Projects\\Web\\FormDemo\\FormDemo.Client\\FormDemo.Client.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\web\\FormDemo\\FormDemo.Client\\FormDemo.Client.csproj": {
+    "C:\\Users\\Tommy\\OneDrive\\Projects\\Web\\FormDemo\\FormDemo.Client\\FormDemo.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\web\\FormDemo\\FormDemo.Client\\FormDemo.Client.csproj",
+        "projectUniqueName": "C:\\Users\\Tommy\\OneDrive\\Projects\\Web\\FormDemo\\FormDemo.Client\\FormDemo.Client.csproj",
         "projectName": "FormDemo.Client",
-        "projectPath": "D:\\Projects\\web\\FormDemo\\FormDemo.Client\\FormDemo.Client.csproj",
-        "packagesPath": "C:\\Users\\tommy.grabowski\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\web\\FormDemo\\FormDemo.Client\\obj\\",
+        "projectPath": "C:\\Users\\Tommy\\OneDrive\\Projects\\Web\\FormDemo\\FormDemo.Client\\FormDemo.Client.csproj",
+        "packagesPath": "C:\\Users\\Tommy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tommy\\OneDrive\\Projects\\Web\\FormDemo\\FormDemo.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tommy.grabowski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tommy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,13 +56,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.4, )",
+              "version": "[8.0.3, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.4, )",
+              "version": "[8.0.3, )",
               "autoReferenced": true
             }
           },
@@ -81,7 +80,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[8.0.4, 8.0.4]"
+              "version": "[8.0.3, 8.0.3]"
             }
           ],
           "frameworkReferences": {
@@ -89,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

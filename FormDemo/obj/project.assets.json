@@ -1329,23 +1329,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tommy.grabowski\\.nuget\\packages\\": {},
+    "C:\\Users\\Tommy\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\web\\FormDemo\\FormDemo\\FormDemo.csproj",
+      "projectUniqueName": "C:\\Users\\Tommy\\OneDrive\\Projects\\Web\\FormDemo\\FormDemo\\FormDemo.csproj",
       "projectName": "FormDemo",
-      "projectPath": "D:\\Projects\\web\\FormDemo\\FormDemo\\FormDemo.csproj",
-      "packagesPath": "C:\\Users\\tommy.grabowski\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\web\\FormDemo\\FormDemo\\obj\\",
+      "projectPath": "C:\\Users\\Tommy\\OneDrive\\Projects\\Web\\FormDemo\\FormDemo\\FormDemo.csproj",
+      "packagesPath": "C:\\Users\\Tommy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tommy\\OneDrive\\Projects\\Web\\FormDemo\\FormDemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\tommy.grabowski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tommy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1354,15 +1354,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Projects\\web\\FormDemo\\FormDemo.Client\\FormDemo.Client.csproj": {
-              "projectPath": "D:\\Projects\\web\\FormDemo\\FormDemo.Client\\FormDemo.Client.csproj"
+            "C:\\Users\\Tommy\\OneDrive\\Projects\\Web\\FormDemo\\FormDemo.Client\\FormDemo.Client.csproj": {
+              "projectPath": "C:\\Users\\Tommy\\OneDrive\\Projects\\Web\\FormDemo\\FormDemo.Client\\FormDemo.Client.csproj"
             }
           }
         }
@@ -1406,7 +1405,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
